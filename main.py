@@ -3,6 +3,9 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def root():
+async def root():
     return {"message": "Hello World"}
 
+@app.get("/certo")
+async def deucerto():
+    return {"teste": "se viu é pq deu certo!"}
