@@ -6,4 +6,3 @@ app = FastAPI()
 def root():
     return {"message": "Hello World"}
 
-Teste commit
