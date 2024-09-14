@@ -17,7 +17,7 @@ jobs:
         with:
           name: CD_ACT_ZIP.zip
           path: |
-              '**.py'
+              **.py
               README.md
   deploy:
     runs-on: ubuntu-latest
