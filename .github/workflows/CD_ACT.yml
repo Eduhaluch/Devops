@@ -56,5 +56,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: user/app:latest
-        #ajustado? 
+        tags: eduhaluch/devops-app:latest
+        #ajustado?
