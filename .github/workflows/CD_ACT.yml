@@ -27,6 +27,8 @@ jobs:
           with:
             name: CD_ACT_ZIP.zip
         - name: Display structure of downloaded files
+          
+          run: ls -R
 
   Docker:
     runs-on: ubuntu-latest
