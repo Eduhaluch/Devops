@@ -56,5 +56,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: user/devops-app:latest
+        tags: user/app:latest
         #ajustado
