@@ -27,7 +27,6 @@ jobs:
           with:
             name: CD_ACT_ZIP.zip
         - name: Display structure of downloaded files
-
           run: ls -R
 
   Docker:
@@ -52,8 +51,6 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v4
       with:
+        context: .
         push: true
-        tags: user/app:latest
-
-
-
+        tags: myusername/devops-app:latest
