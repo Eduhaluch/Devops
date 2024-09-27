@@ -1,10 +1,11 @@
 name: discord
 on:
-  -push
+  - push
 
 jobs:
     discord:
       runs-on: ubuntu-latest
+      name: discord commits
       steps:
         - uses: actions/checkout@v4
         - name: Run Discord Webhook
@@ -12,5 +13,5 @@ jobs:
           with:
             webhook: ${{ secrets.DISCORD_WEBHOOK }}
             template: "avatar-with-link"
+            message: "Agora FOI!"
             include-extras: true
-            #será que deu?
