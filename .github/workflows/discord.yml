@@ -13,4 +13,5 @@ jobs:
           with:
             webhook: ${{ secrets.DISCORD_WEBHOOK }}
             template: "avatar-with-link"
+            message: "Agora FOI!"
             include-extras: true
