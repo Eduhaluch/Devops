@@ -1,5 +1,6 @@
-from fastapi import FastAPI
 import random
+from fastapi import FastAPI
+
 
 app = FastAPI()
 @app.get("/funcao_teste")
