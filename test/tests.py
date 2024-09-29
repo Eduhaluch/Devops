@@ -4,7 +4,7 @@ from unittest.mock import patch
 
 def test_funcao_teste():
     with patch('random.randint', return_value=12345):
-        result = funcao_teste()
+        result = test_funcao_teste()
         yield result
     assert result == {"teste": True, "num_aleatorio": 12345}
 
