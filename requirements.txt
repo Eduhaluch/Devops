@@ -1,1 +1,4 @@
 fastapi==0.114.1
+pytest
+pytest-cov
+pytest-asyncio
