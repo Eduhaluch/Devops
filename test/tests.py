@@ -13,11 +13,11 @@ def test_funcao_teste():
 def root_test():
     result = root_test()
     yield result
-    assert root() == {"message": "Hello World"}
+    assert result == {"message": "Hello World"}
 
 
 
 def deucerto_test():
     result = deucerto_test()
     yield result
-    assert deucerto() == {"teste": "se viu é pq deu certo!"}
+    assert result == {"teste": "se viu é pq deu certo!"}
