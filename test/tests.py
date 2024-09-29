@@ -1,4 +1,4 @@
-from src.main import root, deucerto, funcao_teste
+from src.main import *
 from unittest.mock import patch
 import pytest
 
