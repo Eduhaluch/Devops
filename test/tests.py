@@ -23,4 +23,4 @@ async def test_deucerto():
 
     result = await deucerto()
 
-    assert result == {"teste": "se viu é pq deu certo!"}
+    assert result == {"teste": "se viu é pq deu certo"}
